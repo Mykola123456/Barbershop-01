@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>Barbershop</title>
   </head>
@@ -10,19 +16,19 @@
   <body class="body">
     <header class="header">
       <div class="conteiner web-container">
-        <a href="./index.html">
-          <img src="./imj/logo1.svg" alt="Barbershop logo" />
+        <a class="header-link" href="./index.html">
+          <img class="logo" src="./imj/logo1.svg" alt="Barbershop logo" />
         </a>
-        <nav>
-          <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Services and prices</a></li>
-            <li><a href="">Barbers</a></li>
-            <li><a href="">Contacts </a></li>
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-item"><a href="">About</a></li>
+            <li class="header-item"><a href="">Services and prices</a></li>
+            <li class="header-item"><a href="">Barbers</a></li>
+            <li class="header-item"><a href="">Contacts </a></li>
           </ul>
         </nav>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">Online-booking</button>
+        <a class="header-tel" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="button" type="button">Online-booking</button>
         <main>
           <section>
             <ul>
@@ -43,9 +49,9 @@
                 >
               </li>
             </ul>
-            <p>A hair salon for men in Kyiv</p>
+            <p class="hero-top-text">A hair salon for men in Kyiv</p>
             <h1>BarberShop</h1>
-            <p>
+            <p class="hero-bottom-text">
               We are experts in trendy men’s haircuts. We work quickly,
               carefully and with style.
             </p>
@@ -231,7 +237,29 @@
               </li>
             </ul>
           </section>
-          <section></section>
+          <!-- ---------------- Section Online-booking------ -->
+          <section class="online-booking">
+            <h2>Online-booking</h2>
+            <ul>
+              <li><p>Name*</p></li>
+              <li><p>Phone*</p></li>
+              <li><p>Message</p></li>
+            </ul>
+            <button type="button">Send</button>
+          </section>
+          <!-- ------------------Section Contacts -->
+          <section class="contacts">
+            <h2>Contacts</h2>
+            <ul>
+              <li><a href="">st. Vasilkovaya, 7A Kiev, 08132</a></li>
+              <li><a href="">+38 044 111 11 11</a></li>
+              <li><a href="">barbershop</a></li>
+            </ul>
+            <p>Working hours</p>
+            <p>Every day from 9:00 to 22:00</p>
+          </section>
+          <!-- ----------Footer---------- -->
+          <section class="footer"></section>
         </main>
       </div>
     </header>
